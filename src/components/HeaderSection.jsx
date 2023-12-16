@@ -186,7 +186,7 @@ const HeaderSection = () => {
               <p className=" pt-[30px] text-white ff_gilroy sm:text-2xl text-xl font-bold pb-[22px] ">
                 for Enterprise + Friendly Team{" "}
               </p>
-              <p className="text-[#575757] lg:max-w-[592px] md:text-base text-sm font-normal ff_gilroy pb-7">
+              <p className="text-[#7D7D7D] opacity-[0.7] lg:max-w-[592px] md:text-base text-sm font-normal ff_gilroy pb-7">
                 Vipe Studio is a WordPress Agency for development - a long-term
                 partner for any WordPress service. Websites and,online shops
                 development, maintenance and customization is what we do best.
