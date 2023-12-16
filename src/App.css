@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+html {
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff_inter {
+  font-family: "Inter", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: "KonexyPersonalUse";
+  src: url("./assets/fonts/konexypersonaluse.otf");
+}
+.ff_KonexyPersonalUse {
+  font-family: "KonexyPersonalUse";
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Light.otf");
+}
+.ff_gilroy {
+  font-family: "Gilroy", sans-serif;
+}
+.slick-track {
+  align-items: center !important;
+  display: flex !important;
+  padding-bottom: 4px !important;
+}
+.loader {
+  height: 4px;
+  width: 130px;
+  --c: no-repeat linear-gradient(#ffffff 0 0);
+  background: var(--c), var(--c), #29262c;
+  background-size: 60% 100%;
+  animation: l16 3s infinite;
+}
+@keyframes l16 {
+  0% {
+    background-position: -150% 0, -150% 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  66% {
+    background-position: 250% 0, -150% 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    background-position: 250% 0, 250% 0;
   }
 }
